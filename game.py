@@ -34,7 +34,7 @@ except ImportError:
 #==================    
     
 
-client = LINE("fhan3507@gmail.com","sofan1rt2rw5",appName="IOS\t10.1.1\tIOS\t13.3.1")
+client = LINE("",appName="IOS\t10.1.1\tIOS\t13.3.1")
 
 clientMID = client.profile.mid
 oepoll = OEPoll(client)
